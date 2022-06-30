@@ -94,4 +94,18 @@ body button {
 }
 .header i {
   color: grey;
+}
+
+.section1 {
+  width: 569.68px;
+  display: flex;
+  align-items: flex-start;
+  padding: 62px 2rem;
+}
+.section1 .text-box {
+  width: 274px;
+  padding-top: 38px;
+}
+.section1 img {
+  width: 274px;
 }/*# sourceMappingURL=main.css.map */
