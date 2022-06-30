@@ -1,3 +1,47 @@
 body {
     font-family: 'Inter', sans-serif;
+    
+    h1 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 58px;
+        color: #111111;
+    }
+
+    h3 {
+        color: #FF3998;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 19px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+    }
+    p {font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        color: #555555;
+    }
+
+    button {
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;
+        text-align: center;
+        color: #111111;
+        padding: 16px 48px;
+        border-radius: 64px;
+        background-color: #FFFFFF;
+        border: 3px solid;
+        border-color:#FF3939;
+        cursor: pointer;
+    }
 }
