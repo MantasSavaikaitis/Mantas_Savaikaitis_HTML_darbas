@@ -1,12 +1,24 @@
 .section1 {
     width: 569.68px;
+    position: relative;
     
     .text-box {
         width: 274px;
         padding-top: 38px;
     }
     img {
-        width: 274px;
+        position: absolute;
+        max-width: 428px;
+        left: 200px;
+        bottom: 138px;
+        
+    }
+
+    h1 {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 58px;
     }
 
     display: flex;
