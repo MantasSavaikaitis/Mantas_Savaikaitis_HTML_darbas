@@ -70,7 +70,7 @@ body button {
   padding: 16px 48px;
   border-radius: 64px;
   background-color: #FFFFFF;
-  border: 3px solid;
+  border: 4px solid;
   border-color: #FF3939;
   cursor: pointer;
   border-radius: 100rem;
@@ -105,8 +105,6 @@ body button {
   width: 569.68px;
   padding: 52px 2rem;
   position: relative;
-  display: flex;
-  align-items: flex-start;
 }
 .section1 .text-box {
   width: 274px;
@@ -150,6 +148,9 @@ body button {
 .section3 img {
   height: 50px;
   padding: 8px;
+}
+.section3 img:nth-child(even) {
+  justify-self: right;
 }
 .section3 img:last-child {
   grid-column: span 2;
@@ -244,4 +245,30 @@ body button {
 }
 .cards-box .right {
   justify-self: right;
+}
+
+.section5 {
+  width: 569.68px;
+  padding: 52px 2rem;
+  position: relative;
+  border-top: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+}
+.section5 .text-box {
+  width: 207px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.section5 img {
+  position: absolute;
+  max-width: 428px;
+  left: 240px;
+  bottom: 0px;
+}
+.section5 h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 68px;
+  color: #111111;
 }/*# sourceMappingURL=main.css.map */
