@@ -3,6 +3,14 @@
     .logo-side>* {
         padding-bottom:32px;
         margin-bottom: 0;
+        a {
+            width: 15.64px;
+            height: 18px;
+            left: 134px;
+            top: 2747px;
+            color: #999999;
+            letter-spacing: 1rem;
+        }
     }
 }
 .nav-side {
@@ -18,7 +26,7 @@
         letter-spacing: 0.1em;
         text-transform: uppercase;
         color: #555555;
-        padding-bottom: 28px;
+        padding-bottom: 1rem;
     }
     nav> a  {
         display: block;

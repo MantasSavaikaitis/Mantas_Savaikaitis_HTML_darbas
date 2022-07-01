@@ -102,19 +102,20 @@ body button {
 }
 
 .section1 {
-  width: 569.68px;
+  width: 100%;
   padding: 52px 2rem;
   position: relative;
 }
 .section1 .text-box {
-  width: 274px;
+  width: 75%;
+  max-width: 380px;
   padding-top: 20px;
 }
 .section1 img {
   position: absolute;
   max-width: 428px;
-  left: 200px;
-  bottom: 120px;
+  left: 47%;
+  top: -30px;
 }
 .section1 h1 {
   font-style: normal;
@@ -144,17 +145,14 @@ body button {
   gap: 20px;
   padding-top: 54px;
   padding-bottom: 54px;
+  justify-items: center;
 }
 .section3 img {
   height: 50px;
   padding: 8px;
 }
-.section3 img:nth-child(even) {
-  justify-self: right;
-}
-.section3 img:last-child {
-  grid-column: span 2;
-  justify-self: center;
+.section3 img:nth-child(3) {
+  display: none;
 }
 
 .section4 {
@@ -179,6 +177,7 @@ body button {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
+  overflow: scroll;
 }
 .cards-box .card {
   width: 290px;
@@ -248,29 +247,32 @@ body button {
 }
 
 .section5 {
-  width: 569.68px;
   padding: 52px 2rem;
   position: relative;
   border-top: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
 }
 .section5 .text-box {
-  width: 207px;
+  width: 65%;
   padding-top: 20px;
   padding-bottom: 10px;
 }
-.section5 img {
-  position: absolute;
-  max-width: 428px;
-  left: 240px;
-  bottom: 0px;
+.section5 .text-box p {
+  width: 85%;
 }
 .section5 h1 {
+  max-width: 310px;
   font-style: normal;
   font-weight: 900;
   font-size: 56px;
   line-height: 68px;
   color: #111111;
+}
+.section5 img {
+  position: absolute;
+  max-width: 428px;
+  left: 56%;
+  bottom: 0px;
 }
 
 .footer {
@@ -279,6 +281,14 @@ body button {
 .footer .logo-side > * {
   padding-bottom: 32px;
   margin-bottom: 0;
+}
+.footer .logo-side > * a {
+  width: 15.64px;
+  height: 18px;
+  left: 134px;
+  top: 2747px;
+  color: #999999;
+  letter-spacing: 1rem;
 }
 
 .nav-side {
@@ -295,7 +305,7 @@ body button {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #555555;
-  padding-bottom: 28px;
+  padding-bottom: 1rem;
 }
 .nav-side nav > a {
   display: block;
@@ -317,4 +327,67 @@ body button {
 
 .launch-date {
   display: none;
+}
+
+@media screen and (min-width: 640px) {
+  .section1 img {
+    max-width: 437px;
+    left: 50%;
+  }
+
+  .section3 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .section3 > img:nth-child(1) {
+    grid-column: span 2;
+    justify-self: center;
+  }
+  .section3 > img:nth-child(2) {
+    grid-column: span 2;
+    justify-self: center;
+  }
+  .section3 > img:nth-child(3) {
+    grid-column: span 2;
+    display: block;
+    justify-self: center;
+  }
+  .section3 > img:nth-child(4) {
+    grid-column: span 3;
+    justify-self: center;
+  }
+  .section3 > img:nth-child(5) {
+    grid-column: span 3;
+    justify-self: center;
+  }
+
+  .section5 {
+    padding: 52px 2rem;
+    position: relative;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+  }
+  .section5 .text-box {
+    width: 65%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .section5 img {
+    position: absolute;
+    left: 65%;
+    bottom: 0px;
+  }
+
+  .footer .nav-side {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer .water-marks {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer .copyright {
+    display: block;
+  }
+  .footer .launch-date {
+    display: block;
+  }
 }/*# sourceMappingURL=main.css.map */

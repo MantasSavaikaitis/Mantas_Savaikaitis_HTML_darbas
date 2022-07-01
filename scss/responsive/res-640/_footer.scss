@@ -1,0 +1,16 @@
+.footer {
+    .nav-side {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .water-marks {
+        display: flex;
+        justify-content: space-between;
+    }
+    .copyright {
+        display: block;
+    }
+    .launch-date {
+        display: block;
+       
+    }
+}
