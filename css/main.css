@@ -158,7 +158,7 @@ body button {
 }
 
 .section4 {
-  padding-bottom: 200px;
+  padding-bottom: 90px;
 }
 .section4 h2 {
   font-style: normal;
@@ -305,6 +305,14 @@ body button {
   line-height: 100%;
   color: #555555;
   padding-bottom: 1rem;
+}
+
+.water-marks > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: #999999;
 }
 
 .launch-date {
