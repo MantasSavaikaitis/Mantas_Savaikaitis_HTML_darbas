@@ -141,4 +141,21 @@ body button {
   font-size: 20px;
   line-height: 150%;
   color: #111111;
+}
+
+.section3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-top: 54px;
+  padding-bottom: 54px;
+}
+.section3 img {
+  height: 50px;
+  padding: 8px;
+}
+
+.section3 img:last-child {
+  grid-column: span 2;
+  justify-self: center;
 }/*# sourceMappingURL=main.css.map */
