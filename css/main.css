@@ -125,7 +125,10 @@ body button {
 }
 
 .section2 {
-  background: linear-gradient(70deg, #FF3998, #FF3939, #ff985d, rgba(109, 116, 50, 0.4784313725), #39FFA0);
+  background-image: url(../../assets/background.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 120px 32px 24px 32px;
 }
 .section2 h2 {
@@ -389,5 +392,10 @@ body button {
   }
   .footer .launch-date {
     display: block;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .section2 {
+    border-radius: 16px;
   }
 }/*# sourceMappingURL=main.css.map */

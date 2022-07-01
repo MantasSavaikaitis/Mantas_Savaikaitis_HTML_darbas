@@ -1,6 +1,10 @@
 .section2 {
-    background: linear-gradient(70deg, #FF3998,#FF3939, #ff985d,  #6d74327a, #39FFA0);
-    padding: 120px 32px 24px 32px;
+    background-image: url(../../assets/background.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 120px 32px 24px 32px;       
+    
     h2 {
         font-style: normal;
         font-weight: 500;
