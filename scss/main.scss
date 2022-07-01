@@ -1,17 +1,8 @@
 // initial imports
-@import 'vars' ;
-@import 'cdn';
-@import 'reset';
-@import 'common';
+@import './init/call' ;
 
+// sections import (mobile - first)
+@import './sections-mb-first/call';
 
-// sections import (mobile first)
-@import './sections-mb-first/header';
-@import './sections-mb-first/section1';
-@import './sections-mb-first/section2';
-@import './sections-mb-first/section3';
-@import './sections-mb-first/section4';
-@import './sections-mb-first/section5';
-@import './sections-mb-first/footer';
 
 // resolution changes
