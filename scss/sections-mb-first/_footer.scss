@@ -1,0 +1,35 @@
+.footer {
+    padding-top:4rem;
+    .logo-side>* {
+        padding-bottom:32px;
+        margin-bottom: 0;
+    }
+}
+.nav-side {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding-bottom: 4rem;
+    .nav-group> p {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #555555;
+        padding-bottom: 28px;
+    }
+    nav> a  {
+        display: block;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 100%;
+        color: #555555;
+        padding-bottom: 1rem;
+    }
+}
+.launch-date {
+    display: none;
+}
