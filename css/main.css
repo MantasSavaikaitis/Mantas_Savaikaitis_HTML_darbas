@@ -332,6 +332,7 @@ body button {
   font-size: 20px;
   line-height: 100%;
   color: #999999;
+  padding-bottom: 71px;
 }
 
 .launch-date {
@@ -346,7 +347,7 @@ body button {
     font-size: 60px;
   }
   .section1 img {
-    max-width: 512px;
+    max-width: 582px;
     left: 50%;
   }
 
@@ -431,6 +432,9 @@ body button {
     display: none;
   }
 
+  .section1 {
+    padding: 90px 2rem;
+  }
   .section1 .text-box {
     width: 405px;
   }
@@ -438,7 +442,7 @@ body button {
     font-size: 72px;
   }
   .section1 img {
-    max-width: 630px;
+    max-width: 680px;
   }
 
   .section2 {
@@ -450,6 +454,9 @@ body button {
   }
 }
 @media screen and (min-width: 1080px) {
+  .section1 {
+    padding: 120px 2rem;
+  }
   .section1 .text-box {
     width: 475px;
   }
@@ -457,7 +464,7 @@ body button {
     font-size: 84px;
   }
   .section1 img {
-    max-width: 685px;
+    max-width: 786px;
   }
 
   .section3 {
@@ -483,8 +490,22 @@ body button {
     grid-column: span 1;
     justify-self: center;
   }
+
+  .footer {
+    padding-top: 120px;
+  }
+  .footer .navigation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer .nav-side {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 @media screen and (min-width: 1280px) {
+  .section1 {
+    padding: 150px 0;
+  }
   .section1 .text-box {
     width: 545px;
   }
@@ -492,7 +513,9 @@ body button {
     font-size: 96px;
   }
   .section1 img {
-    max-width: 690px;
+    max-width: 880px;
+    top: 15px;
+    left: 43%;
   }
 
   .section2 {
@@ -500,7 +523,46 @@ body button {
     padding: 120px 2rem 24px 4rem;
   }
 
+  .section4 {
+    padding: 122px 0 120px 0;
+  }
+
+  .cards-box {
+    overflow: visible;
+  }
+
+  .section5 {
+    padding: 120px 0;
+  }
   .section5 h1 {
     max-width: none;
+  }
+
+  .footer {
+    padding-top: 120px;
+  }
+  .footer .navigation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 0;
+  }
+  .footer .nav-side {
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 0;
+  }
+  .footer .logo-side > * {
+    padding-bottom: 0;
+  }
+  .footer .water-marks {
+    padding-top: 120px;
+  }
+
+  .header,
+.section1,
+.section3,
+.section4,
+.section5,
+.footer.container {
+    padding-left: 0;
   }
 }/*# sourceMappingURL=main.css.map */

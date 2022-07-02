@@ -3,8 +3,19 @@
     @import 'section1';
     @import './section2';
     // @import 'section3';
-    // @import 'section4';
+    @import 'section4';
     @import 'section5';
-    // @import 'footer';
+    @import 'footer';
     
+    .header,
+    .section1,
+    .section3,
+    .section4,
+    .section5,
+    .footer.container{
+         
+            padding-left: 0;
+        
+    }
+
 }

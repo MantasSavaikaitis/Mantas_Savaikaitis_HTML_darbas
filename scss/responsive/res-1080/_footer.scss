@@ -1,0 +1,10 @@
+.footer {
+    padding-top: 120px;
+    .navigation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+    .nav-side {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
