@@ -523,8 +523,19 @@ body button {
     padding: 120px 2rem 24px 4rem;
   }
 
+  .section3 {
+    padding: 100px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 8px;
+  }
+  .section3 img {
+    padding: 0;
+    height: 40px;
+  }
+
   .section4 {
-    padding: 122px 0 120px 0;
+    padding: 80px 0 120px;
   }
 
   .cards-box {
