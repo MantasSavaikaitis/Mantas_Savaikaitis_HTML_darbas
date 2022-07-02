@@ -404,6 +404,27 @@ body button {
   }
 }
 @media screen and (min-width: 900px) {
+  .header nav {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header nav a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #555555;
+  }
+  .header nav a:last-child {
+    color: #FF3998;
+  }
+  .header i {
+    color: grey;
+    font-size: 1.5rem;
+    display: none;
+  }
+
   .section1 {
     padding-left: 10%;
   }
