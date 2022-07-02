@@ -271,7 +271,6 @@ body button {
 }
 .section5 h1 {
   width: 100%;
-  max-width: 310px;
   font-style: normal;
   font-weight: 900;
   font-size: 56px;
@@ -460,6 +459,30 @@ body button {
   .section1 img {
     max-width: 685px;
   }
+
+  .section3 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .section3 > img:nth-child(1) {
+    grid-column: span 1;
+    justify-self: center;
+  }
+  .section3 > img:nth-child(2) {
+    grid-column: span 1;
+    justify-self: center;
+  }
+  .section3 > img:nth-child(3) {
+    grid-column: span 1;
+    justify-self: center;
+  }
+  .section3 > img:nth-child(4) {
+    grid-column: span 1;
+    justify-self: center;
+  }
+  .section3 > img:nth-child(5) {
+    grid-column: span 1;
+    justify-self: center;
+  }
 }
 @media screen and (min-width: 1280px) {
   .section1 .text-box {
@@ -475,5 +498,9 @@ body button {
   .section2 {
     border-radius: 16px;
     padding: 120px 2rem 24px 4rem;
+  }
+
+  .section5 h1 {
+    max-width: none;
   }
 }/*# sourceMappingURL=main.css.map */
