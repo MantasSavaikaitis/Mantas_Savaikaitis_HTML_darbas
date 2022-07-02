@@ -107,21 +107,22 @@ body button {
   position: relative;
 }
 .section1 .text-box {
-  width: 75%;
-  max-width: 380px;
+  width: 274px;
   padding-top: 20px;
 }
 .section1 img {
   position: absolute;
-  max-width: 428px;
-  left: 47%;
-  top: -30px;
+  width: 80%;
+  max-width: 984px;
+  left: 50%;
+  min-width: 340px;
+  top: 5px;
 }
 .section1 h1 {
   font-style: normal;
   font-weight: 900;
   font-size: 48px;
-  line-height: 58px;
+  line-height: 1.2em;
 }
 
 .section2 {
@@ -339,8 +340,14 @@ body button {
 }
 
 @media screen and (min-width: 640px) {
+  .section1 .text-box {
+    width: 340px;
+  }
+  .section1 h1 {
+    font-size: 60px;
+  }
   .section1 img {
-    max-width: 437px;
+    max-width: 512px;
     left: 50%;
   }
 
@@ -425,8 +432,14 @@ body button {
     display: none;
   }
 
-  .section1 {
-    padding-left: 10%;
+  .section1 .text-box {
+    width: 405px;
+  }
+  .section1 h1 {
+    font-size: 72px;
+  }
+  .section1 img {
+    max-width: 630px;
   }
 
   .section2 {
@@ -437,7 +450,28 @@ body button {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+@media screen and (min-width: 1080px) {
+  .section1 .text-box {
+    width: 475px;
+  }
+  .section1 h1 {
+    font-size: 84px;
+  }
+  .section1 img {
+    max-width: 685px;
+  }
+}
 @media screen and (min-width: 1280px) {
+  .section1 .text-box {
+    width: 545px;
+  }
+  .section1 h1 {
+    font-size: 96px;
+  }
+  .section1 img {
+    max-width: 690px;
+  }
+
   .section2 {
     border-radius: 16px;
     padding: 120px 2rem 24px 4rem;

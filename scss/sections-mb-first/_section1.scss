@@ -4,15 +4,16 @@
     position: relative;
     
     .text-box {
-        width: 75%;
-        max-width: 380px;
+        width: 274px;
         padding-top: 20px;
     }
     img {
         position: absolute;
-        max-width: 428px;
-        left: 47%;
-        top: -30px;
+        width: 80%;
+        max-width: 984px;
+        left: 50%;
+        min-width: 340px;
+        top: 5px;
         
     }
 
@@ -20,7 +21,7 @@
         font-style: normal;
         font-weight: 900;
         font-size: 48px;
-        line-height: 58px;
+        line-height: 1.2em;
     }
 
     // display: flex;

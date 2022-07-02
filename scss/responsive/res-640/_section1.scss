@@ -1,6 +1,13 @@
 .section1 {
+    .text-box {
+        width: 340px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
     img {
-        max-width: 437px;
+        max-width: 512px;
         left: 50%;
         // bottom: 100px;  
     }
