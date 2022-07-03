@@ -8,10 +8,15 @@
     
     img {
         height: 50px;
-        padding: 8px;
+     
+    }
+    img:nth-child(1) {
+        width: 138px;
+        object-position: 0;
+        object-fit: none;
     }
     
-    img:nth-child(3) {
+    img:nth-child(4) {
         display: none;
     }
     
