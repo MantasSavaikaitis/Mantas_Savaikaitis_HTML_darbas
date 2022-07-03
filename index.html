@@ -9,7 +9,7 @@
   </head>
   <body>
     <!-- header ======================================================= -->
-    <header class="header">
+    <header class="header container">
       <a class="logo" href="#"><img src="./assets/logo.svg" alt="LOGO" /></a>
       <i class="fa-solid fa-bars burger"></i>
 
@@ -21,7 +21,7 @@
       </nav>
     </header>
     <!-- Hero ==========================================================-->
-    <section class="section1">
+    <section class="section1 container">
       <div class="text-box">
         <h3>Launching soon</h3>
         <h1>An NFT like no other</h1>
@@ -33,15 +33,15 @@
       </div>
       <img src="./assets/graphic.svg" alt="mascot" />
     </section>
-    <!-- spalvoto background section ==================================== -->
-    <section class="section2">
+    <!-- colorfull background section ================================= -->
+    <section class="section2 container">
       <div class="text-box">
         <h2>Free NFT for early birds</h2>
         <p>Sign up today and you’ll get a free NFT when we launch.</p>
       </div>
     </section>
     <!-- reference logos =============================================== -->
-    <section class="section3">
+    <section class="section3 container">
       <img src="./assets/companies/1.svg" alt="Boomerang" />
       <img src="./assets/companies/2.svg" alt="Blimp" />
       <img src="./assets/companies/3.svg" alt="qrco" />
@@ -49,7 +49,7 @@
       <img src="./assets/companies/5.svg" alt="droplet" />
     </section>
     <!-- Super rare auction ============================================-->
-    <section class="section4">
+    <section class="section4 container">
       <h2>LE Super Rare Auction</h2>
       <p>
         We have released four limited edition NFTs early which can be bid on via
@@ -61,11 +61,13 @@
           <img src="./assets/ntfs/ntf-1.svg" alt="ntf-1" />
           <div class="card__text-box">
             <p class="series-names">Gloop Series</p>
-            <p class="bid-level">Top bid</p>
+            <p class="bid-level right">Top bid</p>
             <p class="nft-name">Purple Man</p>
-            <p class="price">2.99 ETH</p>
+            <p class="price right">
+              <img src="./assets/eth.svg" alt="ETH" /> 2.99 ETH
+            </p>
             <p class="list-nmb">#12983</p>
-            <p class="time-remaining">1 day left</p>
+            <p class="time-remaining right">1 day left</p>
           </div>
         </div>
         <!-- one card -->
@@ -76,7 +78,9 @@
             <p class="series-names">Gloop Series</p>
             <p class="bid-level">Top bid</p>
             <p class="nft-name">Beige</p>
-            <p class="price">2.99 ETH</p>
+            <p class="price">
+              <img src="./assets/eth.svg" alt="ETH" />2.99 ETH
+            </p>
             <p class="list-nmb">#12983</p>
             <p class="time-remaining">1 day left</p>
           </div>
@@ -89,7 +93,9 @@
             <p class="series-names">Gloop Series</p>
             <p class="bid-level">Top bid</p>
             <p class="nft-name">Red Man</p>
-            <p class="price">2.99 ETH</p>
+            <p class="price">
+              <img src="./assets/eth.svg" alt="ETH" />2.99 ETH
+            </p>
             <p class="list-nmb">#12983</p>
             <p class="time-remaining">1 day left</p>
           </div>
@@ -102,7 +108,9 @@
             <p class="series-names">Gloop Series</p>
             <p class="bid-level">Top bid</p>
             <p class="nft-name">Green</p>
-            <p class="price">2.99 ETH</p>
+            <p class="price">
+              <img src="./assets/eth.svg" alt="ETH" />2.99 ETH
+            </p>
             <p class="list-nmb">#12983</p>
             <p class="time-remaining">1 day left</p>
           </div>
@@ -111,7 +119,7 @@
       </div>
     </section>
     <!-- NFT like no other (sect5) ======================================-->
-    <section class="section5">
+    <section class="section5 container">
       <div class="text-box">
         <h3>Launching soon</h3>
         <h1>An NFT like no other</h1>
@@ -121,55 +129,66 @@
         </p>
         <button>Sign up</button>
       </div>
-      <img src="./assets/ntfs/ntf-4.svg" alt="NFTgreen" />
+      <img src="./assets/upsell-footer-image.svg" alt="logo" />
     </section>
     <!-- foooter ======================================================== -->
-    <footer class="footer">
-      <div class="logo-side">
-        <img src="./assets/logo.svg" alt="logo" />
-        <p>Exclusive NFT Collection</p>
-        <div class="media">
-          <a href="#"><i class="fa-brands fa-facebook"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+    <footer class="footer container">
+      <div class="navigation">
+        <div class="logo-side">
+          <img src="./assets/logo.svg" alt="logo" />
+          <p>Exclusive NFT Collection</p>
+          <div class="media">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+        </div>
+        <div class="nav-side">
+          <!-- one group -->
+          <div class="nav-group">
+            <p class="title">About</p>
+            <nav>
+              <a href="#">About</a>
+              <a href="#">Terms</a>
+              <a href="#">Legal</a>
+            </nav>
+          </div>
+          <!-- one group -->
+          <!-- one group -->
+          <div class="nav-group">
+            <p class="title">NFT</p>
+            <nav>
+              <a href="#">OpenSea</a>
+              <a href="#">Maker</a>
+              <a href="#">Learn</a>
+            </nav>
+          </div>
+          <!-- one group -->
+          <!-- one group -->
+          <div class="nav-group">
+            <p class="title">Contact</p>
+            <nav>
+              <a href="#">Press</a>
+              <a href="#">Support</a>
+            </nav>
+          </div>
+          <!-- one group -->
+          <!-- one group -->
+          <div class="nav-group">
+            <p class="title">Social</p>
+            <nav>
+              <a href="#">Twitter</a>
+              <a href="#">Instagram</a>
+            </nav>
+          </div>
+          <!-- one group -->
         </div>
       </div>
-      <div class="nav-side">
-        <!-- one group -->
-        <div class="nav-group1">
-          <p class="title">About</p>
-          <a href="#">About</a>
-          <a href="#">Terms</a>
-          <a href="#">Legal</a>
-        </div>
-        <!-- one group -->
-        <!-- one group -->
-        <div class="nav-group1">
-          <p class="title">NFT</p>
-          <a href="#">OpenSea</a>
-          <a href="#">Maker</a>
-          <a href="#">Learn</a>
-        </div>
-        <!-- one group -->
-        <!-- one group -->
-        <div class="nav-group1">
-          <p class="title">Contact</p>
-          <a href="#">Press</a>
-          <a href="#">Support</a>
-        </div>
-        <!-- one group -->
-        <!-- one group -->
-        <div class="nav-group1">
-          <p class="title">Social</p>
-          <a href="#">Twitter</a>
-          <a href="#">Instagram</a>
-        </div>
-        <!-- one group -->
-      </div>
+      <!-- water marks (footer) -->
       <div class="water-marks">
-        <p>© Copyright 2022 NFTlanding</p>
-        <p>Launching August 2022</p>
+        <p class="copyright">© Copyright 2022 NFTlanding</p>
+        <p class="launch-date">Launching August 2022</p>
       </div>
     </footer>
   </body>

@@ -1,0 +1,29 @@
+.section1 {
+    width: 100%; 
+    padding:52px 2rem;
+    position: relative;
+    
+    .text-box {
+        width: 274px;
+        padding-top: 20px;
+    }
+    img {
+        position: absolute;
+        width: 80%;
+        max-width: 984px;
+        left: 50%;
+        min-width: 340px;
+        top: 5px;
+        
+    }
+
+    h1 {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 1.2em;
+    }
+
+    // display: flex;
+    // align-items: flex-start;
+}

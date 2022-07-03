@@ -1,0 +1,18 @@
+.footer {
+    padding-top: 120px;
+    .navigation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 0;
+    }
+    .nav-side {
+        grid-template-columns: repeat(4, 1fr);
+        padding-bottom: 0;
+    }
+    .logo-side > * {
+        padding-bottom:0;
+    }
+    .water-marks {
+        padding-top: 120px;
+    }
+}
